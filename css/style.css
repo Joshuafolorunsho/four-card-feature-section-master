@@ -37,8 +37,7 @@ section {
     section .card:first-of-type {
       border-top: 4px solid #45d3d3; }
     section .card:nth-of-type(2) {
-      border-top: 4px solid #ea5353;
-      height: 316.4px; }
+      border-top: 4px solid #ea5353; }
     section .card:nth-of-type(3) {
       border-top: 4px solid #fcaf4a; }
     section .card:nth-of-type(4) {
@@ -50,6 +49,9 @@ section {
 
 .text-center {
   text-align: center; }
+
+.text-muted {
+  opacity: 0.5; }
 
 @media screen and (min-width: 768px) {
   section {
@@ -63,4 +65,6 @@ section {
 
 @media screen and (min-width: 1440px) {
   section .first-card, section .middle-card, section .third-card {
-    width: 30% !important; } }
+    width: 30% !important; }
+  section :nth-of-type(2) {
+    height: 316.4px; } }
