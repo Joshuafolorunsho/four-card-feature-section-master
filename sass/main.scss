@@ -33,7 +33,7 @@ section{
        padding: 0 15px; 
        font-weight: 200;
     }  
-    
+
    }
    .card {
       box-shadow: 0 10px 8px 0 rgba(0,0,0,0.2);
@@ -54,6 +54,7 @@ section{
       }
       &:nth-of-type(2){
          border-top: 4px solid hsl(0, 78%, 62%);
+         height: 316.4px;
       }
       &:nth-of-type(3){
          border-top: 4px solid hsl(34, 97%, 64%);
