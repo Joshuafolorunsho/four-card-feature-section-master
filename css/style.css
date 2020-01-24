@@ -65,6 +65,4 @@ section {
 
 @media screen and (min-width: 1440px) {
   section .first-card, section .middle-card, section .third-card {
-    width: 30% !important; }
-  section :nth-of-type(2) {
-    height: 316.4px; } }
+    width: 30% !important; } }
