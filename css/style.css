@@ -51,6 +51,9 @@ section {
 .text-center {
   text-align: center; }
 
+.text-muted {
+  opacity: 0.5; }
+
 @media screen and (min-width: 768px) {
   section {
     padding-left: 10%;
