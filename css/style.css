@@ -55,14 +55,18 @@ section {
 
 @media screen and (min-width: 768px) {
   section {
-    padding-left: 10%;
-    padding-right: 10%; }
+    padding-left: 5%;
+    padding-right: 5%; }
+    section .card {
+      padding: 15px 20px; }
     section .card-container {
       display: flex;
       align-items: center; }
     section .first-card, section .middle-card, section .third-card {
-      width: 30% !important; } }
+      width: 25% !important; } }
 
 @media screen and (min-width: 1440px) {
+  section .card {
+    height: 35vh; }
   section .first-card, section .middle-card, section .third-card {
     width: 30% !important; } }

@@ -83,8 +83,12 @@ section{
    
    section {
       
-      padding-left: 10%;
-      padding-right: 10%;
+      padding-left: 5%;
+      padding-right: 5%;
+
+      .card {
+         padding: 15px 20px;
+      }
 
       .card-container {
          display: flex;
@@ -92,7 +96,7 @@ section{
       }
       
       .first-card, .middle-card, .third-card {
-         width: 30% !important;
+         width: 25% !important;
       }
       
    }
@@ -101,6 +105,9 @@ section{
 
 @media screen and (min-width: 1440px){ 
    section {
+      .card{
+         height: 35vh;
+      }
       
       .first-card, .middle-card, .third-card {
          width: 30% !important;
